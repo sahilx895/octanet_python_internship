@@ -56,13 +56,13 @@ if pin == password:
 
             
 
-            print(f"your updated balance is {balance}")
+            print(f"Your updated balance is {balance}")
 
             
 
         if option == 3:
 
-            deposit_amount = int(input("please enter deposit amount-->"))
+            deposit_amount = int(input("Please enter deposit amount-->"))
 
             balance = balance + deposit_amount
 
@@ -72,14 +72,15 @@ if pin == password:
 
 
 
-            print(f"your updated balance is {balance}")
+            print(f"Your updated balance is {balance}")
 
 
 
         if option == 4:
+            print("Thanks for Visiting.Have a great day !")
 
             break
 
 
 else:
-    print("wrong pin!! Please try again")
+    print("Wrong pin!! Please try again")
